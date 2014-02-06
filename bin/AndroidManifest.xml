@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ca.on.senecac.layouts"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="ca.on.senecac.layouts.MainActivity"
+            android:label="Linear Layout" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ca.on.senecac.layouts.SecondActivity" 
+            android:label="Relative Layout"/>
+        <activity
+            android:name="ca.on.senecac.layouts.ThirdActivity" 
+            android:label="Table Layout"/>
+        <activity
+            android:name="ca.on.senecac.layouts.FourthActivity" 
+            android:label="Frame Layout"/>
+        <activity
+            android:name="ca.on.senecac.layouts.FifthActivity" 
+            android:label="Scroll Layout"/>
+    </application>
+
+</manifest>
